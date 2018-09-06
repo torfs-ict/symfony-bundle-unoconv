@@ -1,0 +1,20 @@
+{
+    "name": "torfs-ict/unoconv",
+    "description": "Unoconv bundle for our Symfony 4 projects",
+    "type": "library",
+    "require": {
+        "eightpoints/guzzle-bundle": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristof Torfs",
+            "email": "kristof@torfs.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TorfsICT\\Symfony\\Service\\": "src/"
+        }
+    }
+}
